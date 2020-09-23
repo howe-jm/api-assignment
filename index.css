@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#number {
+  width: 40px;
+}
+
+#cat-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 900px;
+}
+
+.cat-pic {
+  width: 300px;
+}
